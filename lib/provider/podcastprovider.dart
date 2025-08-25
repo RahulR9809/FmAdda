@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yourappname/model/podcastsectionmodel.dart' as podcastsection;
-import 'package:yourappname/utils/utils.dart';
-import 'package:yourappname/webservice/apiservices.dart';
+import 'package:fm_adda/model/podcastsectionmodel.dart' as podcastsection;
+import 'package:fm_adda/utils/utils.dart';
+import 'package:fm_adda/webservice/apiservices.dart';
 
 class PodcatsProvider extends ChangeNotifier {
   /* Banner Podcast Pagination */

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yourappname/model/languagemodel.dart';
-import 'package:yourappname/webservice/apiservices.dart';
+import 'package:fm_adda/model/languagemodel.dart';
+import 'package:fm_adda/webservice/apiservices.dart';
 
 class LanguageProvider extends ChangeNotifier {
   LanguageModel languageModel = LanguageModel();

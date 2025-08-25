@@ -24,6 +24,8 @@ final ThemeData lightTheme = ThemeData(
   secondaryHeaderColor: colorPrimary.withValues(alpha: 0.08),
   hintColor: colorAccent,
   scaffoldBackgroundColor: appBgColor,
+    // scaffoldBackgroundColor:Color.fromARGB(255, 163, 162, 162),
+
   /* Main Color End */
   /* Text Color Start */
   colorScheme: const ColorScheme.light(

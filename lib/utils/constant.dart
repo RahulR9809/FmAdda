@@ -1,9 +1,9 @@
 class Constant {
   final String baseurl = "https://royalblue-buffalo-226067.hostingersite.com/public/api/"; /* CHANGE YOUR BASEURL */
 
-  static String appName = "Gradiente Music"; /*   CHANGE YOUR APPNAME */
+  static String appName = "FM Adda"; /*   CHANGE YOUR APPNAME */
   static String? appPackageName =
-      "com.example.gradiente_music"; /* CHANGE PACKAGE NAME */
+      "com.example.fm_adda"; /* CHANGE PACKAGE NAME */
   static String? appleAppId = "";
 
   static String? appVersion = "1.0.0";

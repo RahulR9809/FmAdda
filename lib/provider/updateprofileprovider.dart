@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:yourappname/model/updateprofilemodel.dart';
-import 'package:yourappname/webservice/apiservices.dart';
-import 'package:yourappname/utils/utils.dart';
+import 'package:fm_adda/model/updateprofilemodel.dart';
+import 'package:fm_adda/webservice/apiservices.dart';
+import 'package:fm_adda/utils/utils.dart';
 
 class UpdateProfileProvider extends ChangeNotifier {
   UpdateprofileModel updateprofileModel = UpdateprofileModel();

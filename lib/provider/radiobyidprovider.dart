@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yourappname/model/audiomodel.dart';
-import 'package:yourappname/webservice/apiservices.dart';
-import 'package:yourappname/utils/utils.dart';
+import 'package:fm_adda/model/audiomodel.dart';
+import 'package:fm_adda/webservice/apiservices.dart';
+import 'package:fm_adda/utils/utils.dart';
 
 class RadioByIdProvider extends ChangeNotifier {
   AudioModel songsModel = AudioModel();

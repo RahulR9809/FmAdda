@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:yourappname/model/successmodel.dart';
-import 'package:yourappname/webservice/apiservices.dart';
+import 'package:fm_adda/model/successmodel.dart';
+import 'package:fm_adda/webservice/apiservices.dart';
 
 class AddFavouriteProvider extends ChangeNotifier {
   SuccessModel successModel = SuccessModel();

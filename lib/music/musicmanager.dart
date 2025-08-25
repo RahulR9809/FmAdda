@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:just_audio_background/just_audio_background.dart';
-import 'package:yourappname/pages/home.dart';
-import 'package:yourappname/music/musicdetails.dart';
-import 'package:yourappname/utils/utils.dart';
-import 'package:yourappname/widget/musicutils.dart';
+import 'package:fm_adda/pages/home.dart';
+import 'package:fm_adda/music/musicdetails.dart';
+import 'package:fm_adda/utils/utils.dart';
+import 'package:fm_adda/widget/musicutils.dart';
 
 class MusicManager {
   late ConcatenatingAudioSource playlist;

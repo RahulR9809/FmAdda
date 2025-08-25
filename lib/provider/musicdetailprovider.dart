@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:yourappname/model/commentlistmodel.dart' as comment;
-import 'package:yourappname/model/commentlistmodel.dart';
-import 'package:yourappname/model/getepisodebypodcastmodel.dart' as episode;
-import 'package:yourappname/model/getepisodebypodcastmodel.dart';
-import 'package:yourappname/model/successmodel.dart';
-import 'package:yourappname/webservice/apiservices.dart';
-import 'package:yourappname/utils/utils.dart';
+import 'package:fm_adda/model/commentlistmodel.dart' as comment;
+import 'package:fm_adda/model/commentlistmodel.dart';
+import 'package:fm_adda/model/getepisodebypodcastmodel.dart' as episode;
+import 'package:fm_adda/model/getepisodebypodcastmodel.dart';
+import 'package:fm_adda/model/successmodel.dart';
+import 'package:fm_adda/webservice/apiservices.dart';
+import 'package:fm_adda/utils/utils.dart';
 
 class MusicDetailProvider extends ChangeNotifier {
   String istype = "episode";

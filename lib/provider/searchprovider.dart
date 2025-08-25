@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:yourappname/model/searchmodel.dart';
-import 'package:yourappname/utils/constant.dart';
-import 'package:yourappname/webservice/apiservices.dart';
-import 'package:yourappname/utils/utils.dart';
+import 'package:fm_adda/model/searchmodel.dart';
+import 'package:fm_adda/utils/constant.dart';
+import 'package:fm_adda/webservice/apiservices.dart';
+import 'package:fm_adda/utils/utils.dart';
 
 class SearchProvider extends ChangeNotifier {
   SearchModel searchModel = SearchModel();

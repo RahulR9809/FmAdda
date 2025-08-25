@@ -1,16 +1,16 @@
 import 'package:flutter_locales/flutter_locales.dart';
 import 'package:provider/provider.dart';
-import 'package:yourappname/pages/home.dart';
-import 'package:yourappname/pages/register.dart';
-import 'package:yourappname/utils/constant.dart';
-import 'package:yourappname/utils/dimens.dart';
-import 'package:yourappname/utils/utils.dart';
+import 'package:fm_adda/pages/home.dart';
+import 'package:fm_adda/pages/register.dart';
+import 'package:fm_adda/utils/constant.dart';
+import 'package:fm_adda/utils/dimens.dart';
+import 'package:fm_adda/utils/utils.dart';
 import 'package:flutter/material.dart';
-import 'package:yourappname/provider/generalprovider.dart';
-import 'package:yourappname/utils/color.dart';
-import 'package:yourappname/utils/sharedpref.dart';
-import 'package:yourappname/widget/myimage.dart';
-import 'package:yourappname/widget/mytext.dart';
+import 'package:fm_adda/provider/generalprovider.dart';
+import 'package:fm_adda/utils/color.dart';
+import 'package:fm_adda/utils/sharedpref.dart';
+import 'package:fm_adda/widget/myimage.dart';
+import 'package:fm_adda/widget/mytext.dart';
 
 class NormalLogin extends StatefulWidget {
   const NormalLogin({super.key});

@@ -2,15 +2,15 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:yourappname/pages/home.dart';
-import 'package:yourappname/pages/nodata.dart';
-import 'package:yourappname/provider/languageprovider.dart';
-import 'package:yourappname/utils/color.dart';
-import 'package:yourappname/utils/customwidget.dart';
-import 'package:yourappname/utils/dimens.dart';
-import 'package:yourappname/utils/sharedpref.dart';
-import 'package:yourappname/utils/utils.dart';
-import 'package:yourappname/widget/mytext.dart';
+import 'package:fm_adda/pages/home.dart';
+import 'package:fm_adda/pages/nodata.dart';
+import 'package:fm_adda/provider/languageprovider.dart';
+import 'package:fm_adda/utils/color.dart';
+import 'package:fm_adda/utils/customwidget.dart';
+import 'package:fm_adda/utils/dimens.dart';
+import 'package:fm_adda/utils/sharedpref.dart';
+import 'package:fm_adda/utils/utils.dart';
+import 'package:fm_adda/widget/mytext.dart';
 
 class SelectLanguage extends StatefulWidget {
   const SelectLanguage({super.key});

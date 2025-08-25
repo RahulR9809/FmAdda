@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yourappname/widget/myimage.dart';
+import 'package:fm_adda/widget/myimage.dart';
 
 // ignore: must_be_immutable
 class MyNetworkImg2 extends StatelessWidget {

@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_locales/flutter_locales.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:provider/provider.dart';
-import 'package:yourappname/pages/editprofile.dart';
-import 'package:yourappname/provider/profileprovider.dart';
-import 'package:yourappname/utils/color.dart';
-import 'package:yourappname/utils/constant.dart';
-import 'package:yourappname/utils/dimens.dart';
-import 'package:yourappname/utils/sharedpref.dart';
-import 'package:yourappname/utils/utils.dart';
-import 'package:yourappname/widget/myappbar.dart';
-import 'package:yourappname/widget/myimage.dart';
-import 'package:yourappname/widget/mynetworkimg.dart';
-import 'package:yourappname/widget/mytext.dart';
+import 'package:fm_adda/pages/editprofile.dart';
+import 'package:fm_adda/provider/profileprovider.dart';
+import 'package:fm_adda/utils/color.dart';
+import 'package:fm_adda/utils/constant.dart';
+import 'package:fm_adda/utils/dimens.dart';
+import 'package:fm_adda/utils/sharedpref.dart';
+import 'package:fm_adda/utils/utils.dart';
+import 'package:fm_adda/widget/myappbar.dart';
+import 'package:fm_adda/widget/myimage.dart';
+import 'package:fm_adda/widget/mynetworkimg.dart';
+import 'package:fm_adda/widget/mytext.dart';
 
 class Profile extends StatefulWidget {
   const Profile({super.key});

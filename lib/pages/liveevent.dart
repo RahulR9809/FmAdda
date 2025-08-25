@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:provider/provider.dart';
-import 'package:yourappname/music/musicdetails.dart';
-import 'package:yourappname/pages/login.dart';
-import 'package:yourappname/pages/nodata.dart';
-import 'package:yourappname/provider/liveeventsprovider.dart';
-import 'package:yourappname/subscription/allpayment.dart';
-import 'package:yourappname/utils/color.dart';
-import 'package:yourappname/utils/constant.dart';
-import 'package:yourappname/utils/customwidget.dart';
-import 'package:yourappname/utils/dimens.dart';
-import 'package:yourappname/utils/utils.dart';
-import 'package:yourappname/widget/myappbar.dart';
-import 'package:yourappname/widget/mynetworkimg.dart';
-import 'package:yourappname/widget/mytext.dart';
+import 'package:fm_adda/music/musicdetails.dart';
+import 'package:fm_adda/pages/login.dart';
+import 'package:fm_adda/pages/nodata.dart';
+import 'package:fm_adda/provider/liveeventsprovider.dart';
+import 'package:fm_adda/subscription/allpayment.dart';
+import 'package:fm_adda/utils/color.dart';
+import 'package:fm_adda/utils/constant.dart';
+import 'package:fm_adda/utils/customwidget.dart';
+import 'package:fm_adda/utils/dimens.dart';
+import 'package:fm_adda/utils/utils.dart';
+import 'package:fm_adda/widget/myappbar.dart';
+import 'package:fm_adda/widget/mynetworkimg.dart';
+import 'package:fm_adda/widget/mytext.dart';
 
 class LiveEvent extends StatefulWidget {
   const LiveEvent({super.key});

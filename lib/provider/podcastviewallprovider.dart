@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:yourappname/model/podcastsectiondetailmodel.dart'
+import 'package:fm_adda/model/podcastsectiondetailmodel.dart'
     as podcastsectiondetail;
-import 'package:yourappname/webservice/apiservices.dart';
-import 'package:yourappname/utils/utils.dart';
+import 'package:fm_adda/webservice/apiservices.dart';
+import 'package:fm_adda/utils/utils.dart';
 
 class PodcatViewAllProvider extends ChangeNotifier {
   podcastsectiondetail.PodcastSectionDetailModel podcastSectionDetailModel =

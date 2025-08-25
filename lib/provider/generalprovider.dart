@@ -1,16 +1,16 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:yourappname/model/generalsettingmodel.dart';
-import 'package:yourappname/model/introscreenmodel.dart';
-import 'package:yourappname/model/loginmodel.dart';
-import 'package:yourappname/model/pagesmodel.dart';
-import 'package:yourappname/model/registermodel.dart';
-import 'package:yourappname/model/sociallinkmodel.dart';
-import 'package:yourappname/utils/adhelper.dart';
-import 'package:yourappname/utils/constant.dart';
-import 'package:yourappname/utils/utils.dart';
-import 'package:yourappname/utils/sharedpref.dart';
-import 'package:yourappname/webservice/apiservices.dart';
+import 'package:fm_adda/model/generalsettingmodel.dart';
+import 'package:fm_adda/model/introscreenmodel.dart';
+import 'package:fm_adda/model/loginmodel.dart';
+import 'package:fm_adda/model/pagesmodel.dart';
+import 'package:fm_adda/model/registermodel.dart';
+import 'package:fm_adda/model/sociallinkmodel.dart';
+import 'package:fm_adda/utils/adhelper.dart';
+import 'package:fm_adda/utils/constant.dart';
+import 'package:fm_adda/utils/utils.dart';
+import 'package:fm_adda/utils/sharedpref.dart';
+import 'package:fm_adda/webservice/apiservices.dart';
 
 class GeneralProvider extends ChangeNotifier {
   GeneralsettingModel generalSettingModel = GeneralsettingModel();

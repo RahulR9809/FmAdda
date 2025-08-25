@@ -6,14 +6,14 @@ import 'package:flutter/material.dart';
 import 'package:onesignal_flutter/onesignal_flutter.dart';
 import 'package:pinput/pinput.dart';
 import 'package:provider/provider.dart';
-import 'package:yourappname/pages/home.dart';
-import 'package:yourappname/provider/generalprovider.dart';
-import 'package:yourappname/utils/color.dart';
-import 'package:yourappname/utils/constant.dart';
-import 'package:yourappname/utils/dimens.dart';
-import 'package:yourappname/utils/utils.dart';
-import 'package:yourappname/widget/myimage.dart';
-import 'package:yourappname/widget/mytext.dart';
+import 'package:fm_adda/pages/home.dart';
+import 'package:fm_adda/provider/generalprovider.dart';
+import 'package:fm_adda/utils/color.dart';
+import 'package:fm_adda/utils/constant.dart';
+import 'package:fm_adda/utils/dimens.dart';
+import 'package:fm_adda/utils/utils.dart';
+import 'package:fm_adda/widget/myimage.dart';
+import 'package:fm_adda/widget/mytext.dart';
 
 class OTP extends StatefulWidget {
   final String fullnumber, countrycode, countryName, number;

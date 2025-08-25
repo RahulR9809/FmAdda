@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:yourappname/utils/color.dart';
-import 'package:yourappname/utils/utils.dart';
+import 'package:fm_adda/utils/color.dart';
+import 'package:fm_adda/utils/utils.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 class PlayerYoutube extends StatefulWidget {
