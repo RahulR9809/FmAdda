@@ -199,7 +199,7 @@ class _MusicDetailsState extends State<MusicDetails>
               width: double.infinity,
               height: MediaQuery.of(context).size.height * 0.38,
               decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.surface,
+                color: Colors.transparent,
                 borderRadius: const BorderRadius.only(
                     bottomLeft: Radius.circular(25),
                     bottomRight: Radius.circular(25)),
@@ -216,7 +216,7 @@ class _MusicDetailsState extends State<MusicDetails>
                         child: MyImage(
                             width: 15, height: 15, imagePath: "back.png")),
                     title: MyText(
-                      color: white,
+                      color: Colors.grey,
                       text: "Now Playing",
                       textalign: TextAlign.center,
                       fontsize: Dimens.textlargeBig,
@@ -247,12 +247,12 @@ class _MusicDetailsState extends State<MusicDetails>
                   borderRadius: BorderRadius.circular(0),
                   child: MyNetworkImage(
                     imgWidth: MediaQuery.of(context).size.width,
-                    imgHeight: MediaQuery.of(context).size.height * 0.32,
+                    imgHeight: MediaQuery.of(context).size.height * 0.34,
                     imageUrl: ((audioPlayer.sequenceState?.currentSource?.tag
                                 as MediaItem?)
                             ?.artUri)
                         .toString(),
-                    fit: BoxFit.cover,
+                    fit: BoxFit.fill,
                   ),
                 );
               },
@@ -338,6 +338,8 @@ class _MusicDetailsState extends State<MusicDetails>
                                   children: [
                                     InkWell(
                                       onTap: () {
+                                        
+                                        
                                         musicDetailProvider.getCommentList(
                                             "2",
                                             ((audioPlayer

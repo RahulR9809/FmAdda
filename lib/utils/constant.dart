@@ -1,5 +1,5 @@
 class Constant {
-  final String baseurl = "https://royalblue-buffalo-226067.hostingersite.com/public/api/"; /* CHANGE YOUR BASEURL */
+  final String baseurl = "https://fmaddaadmin.dramachaska.com/public/api/"; /* CHANGE YOUR BASEURL */
 
   static String appName = "FM Adda"; /*   CHANGE YOUR APPNAME */
   static String? appPackageName =

@@ -45,7 +45,20 @@ Future<void> main() async {
     androidNotificationOngoing: true,
     androidShowNotificationBadge: true,
   );
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  // await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+
+ try {
+    await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  } catch (e) {
+    if (e.toString().contains('[core/duplicate-app]')) {
+      // Firebase already initialized, this is expected during hot restart
+      print('Firebase already initialized');
+    } else {
+      // Re-throw other errors
+      rethrow;
+    }
+  }
+
   await Locales.init([
     'en',
     'ar',

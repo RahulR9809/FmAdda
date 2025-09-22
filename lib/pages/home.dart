@@ -665,12 +665,12 @@ class _HomeState extends State<Home> {
                       return Container(
                         width: MediaQuery.of(context).size.width,
                         height: MediaQuery.of(context).size.height * 0.25,
-                        color: white,
+                        color: black,
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             MyText(
-                              color: black,
+                              color: white,
                               text: "areyousurewanttologout",
                               multilanguage: true,
                               textalign: TextAlign.center,
@@ -886,6 +886,15 @@ class _HomeState extends State<Home> {
     );
   }
 
+
+//////change appbar color here==============>
+//////change appbar color here==============>
+//////change appbar color here==============>
+//////change appbar color here==============>
+
+
+
+
   Widget appBar() {
     return Container(
       width: double.infinity,
@@ -893,7 +902,7 @@ class _HomeState extends State<Home> {
       decoration: const BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            colorPrimary,
+            black,
             colorPrimary,
           ],
           end: Alignment.bottomLeft,
@@ -925,12 +934,12 @@ class _HomeState extends State<Home> {
                 MyText(
                   color: white,
                   multilanguage: true,
-                  text: "discover",
+                  text: "FmAdda",
                   textalign: TextAlign.center,
                   fontsize: Dimens.textlargeExtraBig,
                   inter: 1,
                   maxline: 2,
-                  fontwaight: FontWeight.w500,
+                  fontwaight: FontWeight.w600,
                   overflow: TextOverflow.ellipsis,
                   fontstyle: FontStyle.normal,
                 ),
@@ -3104,12 +3113,12 @@ class _HomeState extends State<Home> {
       builder: (context) {
         return Dialog(
           elevation: 16,
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.black,
           child: Container(
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height * 0.28,
             decoration: BoxDecoration(
-                color: white, borderRadius: BorderRadius.circular(20)),
+                color: black, borderRadius: BorderRadius.circular(20)),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -3123,7 +3132,7 @@ class _HomeState extends State<Home> {
                 ),
                 const SizedBox(height: 15),
                 MyText(
-                  color: black,
+                  color: white,
                   text: "areyousurewanttoexit",
                   maxline: 1,
                   multilanguage: true,

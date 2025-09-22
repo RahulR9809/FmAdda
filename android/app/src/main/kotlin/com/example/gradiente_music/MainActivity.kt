@@ -1,4 +1,4 @@
-package com.example.fm_adda
+package com.omnistar.fmadda
 
 import android.content.Context;
 import com.ryanheise.audioservice.AudioServicePlugin;

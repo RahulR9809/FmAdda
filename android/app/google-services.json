@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "163421260797",
+    "project_id": "fm-adda-f2c53",
+    "storage_bucket": "fm-adda-f2c53.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163421260797:android:e62b6f3d7d8ac9ed5e2794",
+        "android_client_info": {
+          "package_name": "com.omnistar.fmadda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163421260797-p68uhevrqgt9n5r46m65kkbv27ofd64j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omnistar.fmadda",
+            "certificate_hash": "1dd91918c95b968809f2d9192f63c2b6b14c739e"
+          }
+        },
+        {
+          "client_id": "163421260797-5ij3asnfd0jgku71stt0sd2lr7f1grmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp47HEI2Kqjt5ucdxR6T8srZkwYORaqYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163421260797-5ij3asnfd0jgku71stt0sd2lr7f1grmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -226,7 +226,7 @@ class SplashState extends State<Splash> {
       _videoController!.addListener(_videoListener);
       
       // Ensure navigation after 3 seconds regardless
-      Future.delayed(const Duration(seconds: 3), () {
+      Future.delayed(const Duration(seconds: 4), () {
         if (mounted && !_hasNavigated) {
           _navigateToNextScreen();
         }

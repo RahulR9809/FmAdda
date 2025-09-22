@@ -17,7 +17,7 @@ const transparent = Colors.transparent;
 
 /* ============================= Light Theme =============================== */
 
-final ThemeData lightTheme = ThemeData(
+final ThemeData   darkTheme = ThemeData(
   brightness: Brightness.light,
   /* Main Color Start */
   primaryColor: colorPrimary,
@@ -53,7 +53,7 @@ final ThemeData lightTheme = ThemeData(
 
 /* ============================= Dark Theme =============================== */
 
-final ThemeData darkTheme = ThemeData(
+final ThemeData lightTheme = ThemeData(
   brightness: Brightness.dark,
   /* Main Color Start */
   primaryColor: colorPrimary,
